@@ -48,7 +48,7 @@ function moveImage(offset) {
 
 // Legg til current-image på det nye bildet
 
-let previousButton = document.querySelector("#previouse-button");
+let previousButton = document.querySelector("#previous-button");
 let nextButton = document.querySelector("#next-button");
 
 previousButton.addEventListener("click", () => {
