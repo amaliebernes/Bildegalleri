@@ -47,13 +47,6 @@ ol {
 
 }
 
-#specific-button {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
-  align-items: end;
-  justify-self: center;
-}
-
 
 .carusell>ol {
 
