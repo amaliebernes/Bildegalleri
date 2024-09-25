@@ -6,6 +6,11 @@ let allImages = document.querySelectorAll (".carusell img");
 
 console.log(allImages);
 
+ 
+
+
+
+
 
 function showImage (imageIndex) {
 }
@@ -21,8 +26,16 @@ function moveImage (offset) {
 
 let newImageIndex = currentImage + offset
 
+for (let image of allImages) {
+
+    console.log (image);
+}
+
+
+
     // Fjern curret-image klassen fra nåværende bilde
 
     // Legg til current-image på det nye bildet
 }
 
+moveImage(1);
