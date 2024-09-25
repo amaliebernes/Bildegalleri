@@ -26,16 +26,27 @@ function moveImage (offset) {
 
 let newImageIndex = currentImage + offset
 
-for (let image of allImages) {
+allImages.forEach {(image, index) =>
 
-    console.log (image);
+if (index === newImageIndex)  {
+
+    image.className = "current-image"
 }
 
+else {
+image.className ="";
 
+}
+
+}
 
     // Fjern curret-image klassen fra nåværende bilde
 
     // Legg til current-image på det nye bildet
-}
+
+};
+console. log(allImages); 
 
 moveImage(1);
+
+console. log (allImages);
