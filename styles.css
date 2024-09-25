@@ -61,3 +61,12 @@ ol {
 .carusell button {
   opacity: 0.5;
 }
+
+.carusell button:hover {
+  scale: 1.2;
+  filter: drop-shadow(1px 1px 12px green);
+}
+
+.carusell button:active {
+  scale: 0.9;
+}
