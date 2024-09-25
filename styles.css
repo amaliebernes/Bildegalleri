@@ -1,21 +1,19 @@
 body {
-
   margin: 0%;
 }
 
-
+ol {
+  margin: 0px;
+  padding: 0%;
+  list-style-type: none;
+}
 
 .carusell {
-
   position: relative;
 }
 
-
-
-.carusell>div {
-
+.carusell > div {
   position: absolute;
-
 
   width: 100%;
   height: 100%;
@@ -23,48 +21,36 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-
-
 }
 
-.carusell>ol {
-
+.carusell > ol {
   display: flex;
 
   width: 100vw;
   overflow: hidden;
-  
 }
 
 #next-button {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
-
 }
 
 #previous-button {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-
 }
 
-
-.carusell>ol {
-
+.carusell > ol {
   display: flex;
 }
 
 .carusell img {
   height: 100vh;
-
 }
 
-
 #specific-buttons {
-
   grid-column: 2 / 3;
   grid-row: 3 / 4;
   align-self: end;
   justify-self: center;
-
 }
