@@ -25,9 +25,11 @@ ol {
 
 .carusell > ol {
   display: flex;
+  justify-content: center;
 
   width: 100vw;
   overflow: hidden;
+  background-color: transparent;
 }
 
 #next-button {
@@ -54,4 +56,8 @@ ol {
 
 .carusell img.current-image {
   display: unset;
+}
+
+.carusell button {
+  opacity: 0.5;
 }
