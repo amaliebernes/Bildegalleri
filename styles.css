@@ -40,17 +40,18 @@ ol {
   grid-row: 2 / 3;
 }
 
-.carusell > ol {
-  display: flex;
-}
-
-.carusell img {
-  height: 100vh;
-}
-
 #specific-buttons {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
   align-self: end;
   justify-self: center;
+}
+
+.carusell img {
+  height: 100vh;
+  display: none;
+}
+
+.carusell img.current-image {
+  display: unset;
 }
